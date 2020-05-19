@@ -4015,5 +4015,5 @@ input, select, textarea {
 	  height: 200px;
 	  background-size: contain;
 	  background-repeat: no-repeat;
-	  background-image: url(/Users/austin/Desktop/Austins_Portfolio/2_Proefssional_Binder/2_Projects/2020/Website_Portfolio/html5up-spectral/images/headshotcrop.jpg);
+	  background-image: url("images/headshotcrop.jpg");
 	}
