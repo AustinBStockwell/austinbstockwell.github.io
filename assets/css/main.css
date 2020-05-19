@@ -4000,9 +4000,11 @@ input, select, textarea {
 
 
 
-
-
-
+/****************************************************************************
+ AUTHOR: Austin Stockwell
+	 DATE: 05-18-2020
+	SCOPE: Personal Portfolio Website
+*****************************************************************************/
 	.imgHeadshotcrop {
 		display: block;
 	  margin-left: auto;
