@@ -1752,8 +1752,82 @@ input, select, textarea {
 
 		}
 
-/* Section/Article */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************/
+/*Section/Article*/
+/*********************/
 	section.special, article.special {
 		text-align: center;
 	}
@@ -1812,8 +1886,7 @@ input, select, textarea {
 
 	}
 
-/* Form */
-
+/*** Form *********************************************************************/
 	form {
 		margin: 0 0 2em 0;
 	}
@@ -1987,8 +2060,8 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
-/* Box */
 
+/*** Box***********************************************************************/
 	.box {
 		border-radius: 3px;
 		border: solid 2px #fff;
@@ -2008,8 +2081,7 @@ input, select, textarea {
 			padding: 0;
 		}
 
-/* Icon */
-
+/*** Icon *********************************************************************/
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2293,7 +2365,6 @@ input, select, textarea {
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5em;
 						}
-
 		}
 
 /* Icons */
@@ -2326,7 +2397,6 @@ input, select, textarea {
 					ul.icons.major li {
 						padding: 0 1em !important;
 					}
-
 				}
 
 /* Table */
@@ -2531,7 +2601,6 @@ input, select, textarea {
 				height: 3.75em;
 				line-height: 3.75em;
 			}
-
 		}
 
 /* Features */
@@ -2563,27 +2632,41 @@ input, select, textarea {
 		}
 
 			.features li:nth-child(1) {
-				background-color: rgba(0, 0, 0, 0.035);
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/prusa3.jpg");
+		background-size: fill;
+		background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(2) {
-				background-color: rgba(0, 0, 0, 0.07);
-			}
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/circuit2.jpg");
+				background-size: fill;
+				background-repeat: no-repeat;
+				}
 
 			.features li:nth-child(3) {
-				background-color: rgba(0, 0, 0, 0.105);
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/mysql.png");
+				background-size: fill;
+				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(4) {
-				background-color: rgba(0, 0, 0, 0.14);
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/15.jpg");
+				background-size: fill;
+				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(5) {
-				background-color: rgba(0, 0, 0, 0.175);
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sqlgui.jpg");
+				background-size: fill;
+				background-repeat: no-repeat;
 			}
 
 			.features li:nth-child(6) {
-				background-color: rgba(0, 0, 0, 0.21);
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/finaldesign.jpg");
+				background-size: fill;
+				background-repeat: no-repeat;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 			.features li:nth-child(7) {
@@ -2604,7 +2687,7 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: #21E1EB;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2686,6 +2769,7 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
+			text-align: center;
 			padding: 2em 4em 0.1em 4em ;
 			-moz-order: 2;
 			-webkit-order: 2;
@@ -2786,7 +2870,6 @@ input, select, textarea {
 		}
 
 /* Wrapper */
-
 	.wrapper {
 		padding: 6em 0 4em 0 ;
 	}
@@ -2817,7 +2900,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #2e3842;
 			color: #c8ece9;
 		}
 
@@ -2979,8 +3062,9 @@ input, select, textarea {
 			background-color: #2e3842;
 		}
 
+
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #21b2a6;
 			color: #d3d4e4;
 		}
 
@@ -3317,6 +3401,15 @@ input, select, textarea {
 
 		}
 
+		.wrapper.style6 {
+			background-color: #21b2a6;
+			color: #d3d4e4;
+		}
+
+		.wrapper.style7 {
+			background-color: #2e3842;
+			color: #2e3842;
+		}
 /* Page Wrapper + Menu */
 
 	#page-wrapper {
@@ -3445,7 +3538,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #00AB89;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3814,10 +3907,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3886,8 +3979,13 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
-		text-align: center;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;		text-align: center;
 	}
 
 		#footer .icons {
@@ -3964,10 +4062,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3985,17 +4083,23 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.png");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 
@@ -4017,3 +4121,70 @@ input, select, textarea {
 	  background-repeat: no-repeat;
 	  background-image: url("images/headshotcrop.jpg");
 	}
+
+	.imgHeadshotcrop2 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-image: url("images/headshotcrop.jpg");
+	}
+
+
+	ul.bannerIcons {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+	}
+
+		ul.bannerIcons li {
+			display: inline-block;
+			padding: 0 1em 0 0;  /* Top,right,buttom,left */
+		}
+
+			ul.bannerIcons li:last-child {
+				padding-right: 0 !important;
+			}
+
+		ul.bannerIcons.major {
+			padding: 1em 0;
+		}
+
+			ul.bannerIcons.major li {
+				padding-right: 3.5em;
+			}
+
+				@media screen and (max-width: 736px) {
+					ul.bannerIcons.major li {
+						padding: 0 1em !important;
+					}
+				}
+
+				.outer{
+					padding: 0 1em 100 1000;
+				}
+
+.myIntro{
+padding:50px;
+	margin:  auto;
+	width: fill;
+	align: center;
+font-style:;
+font-weight: 100; /*"Thin-ness of letters"*/
+text-align: center;
+text-indent: ;
+color: #2e3842;
+/*Red,Green,Blue,Transparancy*/
+background-color:#2e3842;
+word-spacing;
+letter-spacing;
+font-size: 17px;
+line-height: 25px;
+width: 60em;
+margin: 0 auto;
+}
